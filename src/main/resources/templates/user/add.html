@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <!--    //how to send the form to /user?-->
+<!--        <h1 th:if="${user.error != null}">Passwords don't match, try again.</h1>-->
+        <form method="post" >
+            <label>Username: <input type="text" name="username"> </label>
+            <label>Email: <input type="email" name="email"> </label>
+            <label>Password: <input type="password" name="password"> </label>
+            <label>Verify Password: <input type="password" name="verify"> </label>
+            <input type="submit" value="button">
+        </form>
+
+    </body>
+</html>
+
+
